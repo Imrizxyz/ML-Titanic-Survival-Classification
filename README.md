@@ -1,41 +1,44 @@
 # 🚢 Titanic Survival Prediction using Logistic Regression
 
-This project predicts whether a passenger survived the Titanic disaster based on features like **class, gender, age and fare** using a **Logistic Regression Machine Learning model**.
+This project predicts whether a passenger survived the Titanic disaster based on features like **class, gender, age, and fare** using a **Logistic Regression Machine Learning model**.
 
 ---
 
 ## 📊 Project Overview
-- Input features: `pclass`, `sex`, `age`, `fare`
-- Target output: `survived` (0 = No, 1 = Yes)
-- Model: **Logistic Regression**
-- Dataset: Titanic dataset from Seaborn Library
+- **Input features:** pclass, sex, age, fare  
+- **Target output:** survived (0 = No, 1 = Yes)  
+- **Model:** Logistic Regression  
+- **Dataset:** Titanic dataset from Seaborn Library  
+
+This project demonstrates a classification machine learning pipeline from data cleaning to real-time prediction.
 
 ---
 
 ## 🧠 Tech Stack
 | Library / Tool | Purpose |
-|----------------|----------|
-| Python | Programming |
-| Pandas / Numpy | Data handling |
-| Seaborn | Dataset + Visualization |
-| Scikit-Learn | ML model training |
+|----------------|---------|
+| Python | Programming language |
+| Pandas / NumPy | Data handling |
+| Seaborn | Dataset loading + exploration |
+| Scikit-Learn | Machine Learning model |
+| Matplotlib | Data visualization |
 
 ---
 
 ## 📌 Workflow (Step-by-Step)
-1. Load dataset using Seaborn
-2. Clean missing values (age, fare)
-3. Convert categorical values (`sex`) to numeric
-4. Split into Train/Test sets
-5. Train Logistic Regression model
-6. Predict + evaluate accuracy
-7. User input-based prediction
+1. Load dataset using Seaborn  
+2. Data cleaning (handle missing values)  
+3. Encode categorical features (`sex`)  
+4. Split data into train & test sets  
+5. Train Logistic Regression model  
+6. Evaluate predictions & accuracy  
+7. Take user input to predict real-time survival
 
 ---
 
 ## 🎯 Results
-- **Model Accuracy:** ~78% - 82% (depends on split)
-- Example Output:
+- **Model Accuracy:** ~78%–82% (depending on split)
+- **Example Prediction:**  
 
 ---
 
